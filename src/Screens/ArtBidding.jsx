@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "../styles/ArtBidding.css"; // Import CSS
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://jancenpogi.pythonanywhere.com/";
 
 const ArtBidding = () => {
   const [arts, setArts] = useState([]);

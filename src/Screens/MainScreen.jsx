@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import "../styles/MainScreen.css"; // Import the new CSS file
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://jancenpogi.pythonanywhere.com/";
 
 const MainScreen = () => {
     const [user, setUser] = useState(null);

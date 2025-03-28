@@ -5,7 +5,7 @@ import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js"; /
 import paymentReducer from "../reducers/paymentReducer"; // Import reducer
 import "../styles/PaymentScreen.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://jancenpogi.pythonanywhere.com/";
 
 const PaymentScreen = () => {
     const { id } = useParams();

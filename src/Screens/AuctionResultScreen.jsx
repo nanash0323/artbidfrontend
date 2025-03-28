@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../styles/AuctionResultScreen.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://jancenpogi.pythonanywhere.com/";
 
 const AuctionResultScreen = () => {
     const { id } = useParams();
